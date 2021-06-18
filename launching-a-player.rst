@@ -1,7 +1,7 @@
 .. _launching_a_player:
 
 Launching a player
-------------------
+##################
 
 .. note::
 
@@ -23,6 +23,25 @@ Launch our simulated soccer player:
 You should see the robot launched in the simulator as shown below.
 
 .. image:: images/launch_robot.png
+
+
+Launch Arguments
+****************
+
+To see launch arguments, use
+
+.. code-block:: console
+
+  ros2 launch team_ijnek_launch simulated_player_launch.py --show-args
+
+Currently the supported arguments are:
+
+* **namespace** - string (default: '')
+* **team** - string (default: 'ijnek')
+* **number** - int (default: '2')
+* **x** - double (default: '0.0')
+* **y** - double (default: '0.0')
+* **theta** - double (default: '0.0')
 
 
 .. _SimSpark: https://gitlab.com/robocup-sim/SimSpark/-/wikis/home
