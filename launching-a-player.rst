@@ -29,6 +29,9 @@ You should see the robot launched in the simulator as shown below.
 
 .. image:: images/launch_robot.png
 
+.. tip::
+
+  If the robot doesn't show up, double check that you started rcsoccersim3d
 
 Launch Arguments
 ****************
