@@ -3,7 +3,7 @@
 Launching a player
 ##################
 
-.. note::
+.. warning::
 
   This tutorial assumes you have installed `SimSpark`_, `NaoSoccerSim`_, `ROS2 Nao Package`_,
   as well as this package.
