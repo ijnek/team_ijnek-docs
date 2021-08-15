@@ -14,7 +14,7 @@ In your ROS2 workspace, clone the repository:
 .. code-block:: console
 
    git clone https://github.com/ijnek/team_ijnek.git src/team_ijnek
-   vcs import src < src/team_ijnek/dependencies.repos
+   vcs import src < src/team_ijnek/dependencies.repos --recursive
 
 Building
 ********

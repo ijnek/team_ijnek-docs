@@ -5,8 +5,13 @@ Launching a player
 
 .. warning::
 
-  This tutorial assumes you have installed `SimSpark`_, `NaoSoccerSim`_, `ROS2 Nao Package`_,
-  as well as this package.
+  This tutorial assumes you have done the following:
+
+  * `SimSpark Installation`_,
+  * `ROS2 Nao Package Installation`_,
+  * Installed this package
+  
+  If you haven't installed any of the above, do it before proceeding.
 
 To launch the player in SimSpark, first start the simulator:
 
@@ -44,6 +49,5 @@ Currently the supported arguments are:
 * **theta** - double (default: '0.0')
 
 
-.. _SimSpark: https://gitlab.com/robocup-sim/SimSpark/-/wikis/home
-.. _NaoSoccerSim: https://github.com/ijnek/naosoccer_sim
-.. _ROS2 Nao Package: https://github.com/ijnek/nao
+.. _SimSpark Installation: https://gitlab.com/robocup-sim/SimSpark/-/wikis/home
+.. _ROS2 Nao Package Installation: https://ros2-nao.readthedocs.io/en/latest/installation.html
