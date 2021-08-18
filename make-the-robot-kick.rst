@@ -7,7 +7,7 @@ In a new terminal, publish a single message on the `/motion/kick` topic:
 
 .. code-block:: console
 
-  ros2 topic pub --once /motion/kick motion_msgs/msg/Kick
+  ros2 topic pub --once /motion/kick motion_interfaces/msg/Kick
 
 You should see the robot in the simulator performing a kick as below:
 
@@ -20,4 +20,4 @@ You should see the robot in the simulator performing a kick as below:
 
   .. code-block:: console
 
-    ros2 topic pub --once /motion/kick motion_msgs/msg/Kick '{use_left_foot: True}'
+    ros2 topic pub --once /motion/kick motion_interfaces/msg/Kick '{use_left_foot: True}'
