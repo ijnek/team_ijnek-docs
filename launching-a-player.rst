@@ -44,7 +44,6 @@ To see launch arguments, use
 
 Currently the supported arguments are:
 
-* **namespace** - string (default: '')
 * **team** - string (default: 'ijnek')
 * **number** - int (default: '2')
 * **x** - double (default: '0.0')
